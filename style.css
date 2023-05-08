@@ -42,10 +42,27 @@ body{
     padding-top: 30% ;
  }
 
- .logo{
-    width: 150px;
-    height: 100px;
-    cursor: pointer;
-    margin-left: 10px;
+ .button{
+    background-color: aqua;
+    color: beige;
+    width: 60px;
+    height: 40px;
+    padding: 15px 32px;
     
+ }
+
+ .button:hover{
+    background-color: #eee5df; 
+    color: white;
+ }
+
+ .svg{
+    width: 150px;
+    height: 500px;
+    cursor: pointer;
+    margin-left: 2px;
+    
+ }
+ a{
+    text-decoration: none;
  }
