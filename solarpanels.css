@@ -1,0 +1,35 @@
+*{
+    margin: auto;
+    height: auto;
+    width: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner-wrap{
+    background-image: url(./images/425_HP_SolarPanels_D.jpeg);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 6%;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.side-menu{
+
+}
+.main-title{
+
+}
+.action-btn{
+
+}
+.logo{
+    width: 150px;
+    height: 100px;
+    cursor: pointer;
+    margin-left: 18px;
+ }
+.futa{
+
+}

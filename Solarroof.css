@@ -1,0 +1,33 @@
+*{
+    margin: auto;
+    height: auto;
+    width: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner-wrap{
+    background-image: url(./images/Homepage-SolarRoof-Desktop-Global.jpeg)
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 6%;
+    width: 100%;
+    align-items: center;
+}
+.side-menu{
+
+}
+.main-title{
+
+}
+.action-btn{
+
+}
+.logo{
+    width: 150px;
+    height: 100px;
+    cursor: pointer;
+    margin-left: 18px;
+ }
+.futa{
+
+}

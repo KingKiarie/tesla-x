@@ -1,31 +1,51 @@
 *{
-    margin: 0;
+    margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 .banner-wrap{
-    background-image: url(./Model-S-homepage-desktop.jpeg);
+    background-image: url(./images/Model-S-homepage-desktop.jpeg);
     height: 100vh;
-    width: 100px;
+    width: 100%;
     background-position: center;
     background-size: cover;
 }
 
 .nav-bar{
+    position: fixed;
     display: flex;
-    justify-content: space space-between;
+    justify-content: space-between;
     padding: 2% 6%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
 }
 
  main{
     text-align: center;
     align-items: center;
  }
+
+ .main-title{
+    text-align: center;
+    align-items: center;
+ }
+
  .action-btn{
     padding-top: 30% ;
  }
+
  .logo{
-    width: 30%;
-    height: 40%;
+    width: 150px;
+    height: 100px;
+    cursor: pointer;
+    margin-left: 10px;
+    
  }

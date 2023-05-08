@@ -1,0 +1,29 @@
+*{
+    margin: auto;
+    height: auto;
+    width: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner-wrap{
+    background-image: url(./images/Homepage-Model-X-Desktop-LHD.jpeg);
+}
+.side-menu{
+
+}
+.main-title{
+
+}
+.action-btn{
+
+}
+
+.logo{
+    width: 120px;
+    height: 24px;
+    cursor: pointer;
+    margin-left: 18px;
+ }
+.futa{
+
+}
