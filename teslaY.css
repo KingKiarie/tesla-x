@@ -10,7 +10,7 @@ body{
     padding: 0;
 }
 .banner-wrap{
-    background-image: url(./images/Homepage-Model-Y-Global-Desktop.jpeg);
+    background-image: url(./images/model\ Y.jpeg);
     height: 100vh;
     width: 100%;
     background-position: center;
@@ -18,14 +18,26 @@ body{
 }
 
 .nav-bar{
-    position: fixed;
     display: flex;
     justify-content: space-between;
     padding: 2% 6%;
-    top: 0;
-    left: 0;
     width: 100%;
     align-items: center;
+}
+
+nav ul{
+   flex: 1;
+   text-align: cen;
+}
+
+nav ul li{
+   display: inline-block;
+   margin: 10px 20px;
+}
+
+nav ul li a{
+   text-decoration: none;
+   coler: black;
 }
 
  main{
@@ -42,7 +54,7 @@ body{
     padding-top: 30% ;
  }
 
- .{
+ .button{
     background-color: aqua;
     color: beige;
     width: 60px;
@@ -56,9 +68,13 @@ body{
     color: white;
  }
 
- .logo{
-    width: 50px;
-    height: 10px;
+ .side-menu{
+   display: inline-block;
+ }
+
+ .svg{
+    width: 150px;
+    height: 100px;
     cursor: pointer;
     margin-left: 2px;
     

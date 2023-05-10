@@ -22,8 +22,6 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 2% 6%;
-    top: 0;
-    left: 0;
     width: 100%;
     align-items: center;
 }
@@ -42,7 +40,7 @@ body{
     padding-top: 30% ;
  }
 
- .{
+ .button{
     background-color: aqua;
     color: beige;
     width: 60px;
@@ -56,9 +54,9 @@ body{
     color: white;
  }
 
- .logo{
-    width: 50px;
-    height: 10px;
+ .svg{
+    width: 150px;
+    height: 100px;
     cursor: pointer;
     margin-left: 2px;
     
